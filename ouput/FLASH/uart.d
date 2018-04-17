@@ -1,0 +1,12 @@
+.\ouput\flash\uart.o: UART\uart.c
+.\ouput\flash\uart.o: UART\..\lpc177x_8x\lpc177x_8x.h
+.\ouput\flash\uart.o: .\CM3\core_cm3.h
+.\ouput\flash\uart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\ouput\flash\uart.o: .\CM3\core_cmInstr.h
+.\ouput\flash\uart.o: .\CM3\core_cmFunc.h
+.\ouput\flash\uart.o: UART\..\lpc177x_8x\system_LPC177x_8x.h
+.\ouput\flash\uart.o: UART\uart.h
+.\ouput\flash\uart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\ouput\flash\uart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\ouput\flash\uart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\ouput\flash\uart.o: UART\..\XMODEM1K\xmodem1k.h

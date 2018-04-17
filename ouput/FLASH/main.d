@@ -1,0 +1,14 @@
+.\ouput\flash\main.o: USER_CODE\main.c
+.\ouput\flash\main.o: USER_CODE\..\lpc177x_8x\lpc177x_8x.h
+.\ouput\flash\main.o: .\CM3\core_cm3.h
+.\ouput\flash\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\ouput\flash\main.o: .\CM3\core_cmInstr.h
+.\ouput\flash\main.o: .\CM3\core_cmFunc.h
+.\ouput\flash\main.o: USER_CODE\..\lpc177x_8x\system_LPC177x_8x.h
+.\ouput\flash\main.o: USER_CODE\../UART/uart.h
+.\ouput\flash\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\ouput\flash\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\ouput\flash\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\ouput\flash\main.o: USER_CODE\../IAP/iap.h
+.\ouput\flash\main.o: USER_CODE\../CRC/crc.h
+.\ouput\flash\main.o: USER_CODE\../XMODEM1K/xmodem1k.h

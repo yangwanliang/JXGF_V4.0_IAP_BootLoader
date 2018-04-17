@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\ouput\flash\core_cm3.o"
+".\ouput\flash\system_lpc177x_8x.o"
+".\ouput\flash\startup_lpc177x_8x.o"
+".\ouput\flash\main.o"
+".\ouput\flash\iap.o"
+".\ouput\flash\crc.o"
+".\ouput\flash\xmodem1k.o"
+".\ouput\flash\uart.o"
+--strict --scatter ".\LPC177x_8x.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\ouput\FLASH\LPC177x_8x.map" -o .\ouput\FLASH\LPC177x_8x.axf

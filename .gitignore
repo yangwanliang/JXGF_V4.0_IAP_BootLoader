@@ -1,0 +1,4 @@
+output/
+pro/
+*.uvgui*
+*.uvopt*
