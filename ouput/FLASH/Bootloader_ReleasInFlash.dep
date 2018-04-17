@@ -1,61 +1,0 @@
-Dependencies for Project 'Bootloader', Target 'ReleasInFlash': (DO NOT MODIFY !)
-F (.\CM3\core_cm3.c)(0x5875DE90)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\LPC177x_8x -I.\CM3-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC177x_8x-D__UVISION_VERSION="515"-o .\ouput\flash\core_cm3.o --omf_browse .\ouput\flash\core_cm3.crf --depend .\ouput\flash\core_cm3.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-F (.\LPC177x_8x\system_LPC177x_8x.c)(0x58DA2801)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\LPC177x_8x -I.\CM3-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC177x_8x-D__UVISION_VERSION="515"-o .\ouput\flash\system_lpc177x_8x.o --omf_browse .\ouput\flash\system_lpc177x_8x.crf --depend .\ouput\flash\system_lpc177x_8x.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (LPC177x_8x\LPC177x_8x.h)(0x5875DE90)
-I (.\CM3\core_cm3.h)(0x5875DE90)
-I (.\CM3\core_cmInstr.h)(0x5875DE90)
-I (.\CM3\core_cmFunc.h)(0x5875DE90)
-I (LPC177x_8x\system_LPC177x_8x.h)(0x5875DE90)
-F (.\LPC177x_8x\Startup\startup_LPC177x_8x.s)(0x589BD596)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC177x_8x--pd "__UVISION_VERSION SETA 515"--list .\ouput\flash\startup_lpc177x_8x.lst --xref -o .\ouput\flash\startup_lpc177x_8x.o --depend .\ouput\flash\startup_lpc177x_8x.d)
-F (.\USER_CODE\main.c)(0x58DB5548)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\LPC177x_8x -I.\CM3-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC177x_8x-D__UVISION_VERSION="515"-o .\ouput\flash\main.o --omf_browse .\ouput\flash\main.crf --depend .\ouput\flash\main.d)
-I (USER_CODE\..\lpc177x_8x\lpc177x_8x.h)(0x5875DE90)
-I (.\CM3\core_cm3.h)(0x5875DE90)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (.\CM3\core_cmInstr.h)(0x5875DE90)
-I (.\CM3\core_cmFunc.h)(0x5875DE90)
-I (USER_CODE\..\lpc177x_8x\system_LPC177x_8x.h)(0x5875DE90)
-I (USER_CODE\../UART/uart.h)(0x58DB262B)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
-I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
-I (USER_CODE\../IAP/iap.h)(0x5875DE90)
-I (USER_CODE\../CRC/crc.h)(0x5875DE90)
-I (USER_CODE\../XMODEM1K/xmodem1k.h)(0x58DB5548)
-F (.\IAP\IAP.c)(0x5875DE90)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\LPC177x_8x -I.\CM3-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC177x_8x-D__UVISION_VERSION="515"-o .\ouput\flash\iap.o --omf_browse .\ouput\flash\iap.crf --depend .\ouput\flash\iap.d)
-I (IAP\IAP.h)(0x5875DE90)
-I (.\LPC177x_8x\lpc177x_8x.h)(0x5875DE90)
-I (.\CM3\core_cm3.h)(0x5875DE90)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (.\CM3\core_cmInstr.h)(0x5875DE90)
-I (.\CM3\core_cmFunc.h)(0x5875DE90)
-I (.\LPC177x_8x\system_LPC177x_8x.h)(0x5875DE90)
-F (.\CRC\crc.c)(0x5875DE90)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\LPC177x_8x -I.\CM3-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC177x_8x-D__UVISION_VERSION="515"-o .\ouput\flash\crc.o --omf_browse .\ouput\flash\crc.crf --depend .\ouput\flash\crc.d)
-I (CRC\crc.h)(0x5875DE90)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-F (.\XMODEM1K\xmodem1k.c)(0x58DB5548)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\LPC177x_8x -I.\CM3-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC177x_8x-D__UVISION_VERSION="515"-o .\ouput\flash\xmodem1k.o --omf_browse .\ouput\flash\xmodem1k.crf --depend .\ouput\flash\xmodem1k.d)
-I (XMODEM1K\..\lpc177x_8x\lpc177x_8x.h)(0x5875DE90)
-I (.\CM3\core_cm3.h)(0x5875DE90)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (.\CM3\core_cmInstr.h)(0x5875DE90)
-I (.\CM3\core_cmFunc.h)(0x5875DE90)
-I (XMODEM1K\..\lpc177x_8x\system_LPC177x_8x.h)(0x5875DE90)
-I (XMODEM1K\../CRC/crc.h)(0x5875DE90)
-I (XMODEM1K\../UART/uart.h)(0x58DB262B)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
-I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
-I (XMODEM1K\xmodem1k.h)(0x58DB5548)
-F (.\UART\uart.c)(0x58DB5548)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\LPC177x_8x -I.\CM3-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC177x_8x-D__UVISION_VERSION="515"-o .\ouput\flash\uart.o --omf_browse .\ouput\flash\uart.crf --depend .\ouput\flash\uart.d)
-I (UART\..\lpc177x_8x\lpc177x_8x.h)(0x5875DE90)
-I (.\CM3\core_cm3.h)(0x5875DE90)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (.\CM3\core_cmInstr.h)(0x5875DE90)
-I (.\CM3\core_cmFunc.h)(0x5875DE90)
-I (UART\..\lpc177x_8x\system_LPC177x_8x.h)(0x5875DE90)
-I (UART\uart.h)(0x58DB262B)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
-I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
-I (UART\..\XMODEM1K\xmodem1k.h)(0x58DB5548)
